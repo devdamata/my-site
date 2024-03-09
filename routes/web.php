@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/teste', function () {
-    return view('app');
+    return view('home');
 });
