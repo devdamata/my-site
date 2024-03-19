@@ -8,6 +8,9 @@ module.exports = {
     darkMode: 'class',
     theme: {
         extend: {
+            backgroundImage: {
+                'teste': "url('{{ asset('/docs/images/contact/contact.png') }}')",
+            },
             transitionDuration: {
                 '2000': '2000ms',
             },
