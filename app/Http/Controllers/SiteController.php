@@ -12,6 +12,11 @@ class SiteController extends Controller
         return view('home');
     }
 
+    public function homev2(): View
+    {
+        return view('homev2');
+    }
+
     public function contact(): View
     {
         return view('contact');
